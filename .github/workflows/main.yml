@@ -2,12 +2,12 @@ name: "Eggplant Runner"
 
 # Configure which branch that will trigger Eggplant DAI GitHub Action
 on: "main"
-#  push:
-#    branches:
-#      - main 
-#  pull_request:
-#    branches:
-#      - main
+  push:
+   branches:
+     - main 
+ pull_request:
+  branches:
+      - main
 
 jobs:
   Run-DAI-Test-Configuration:
