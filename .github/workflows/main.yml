@@ -4,9 +4,10 @@ name: "Eggplant Runner"
 on: 
   push:
    branches: ["main"]
- # pull_request:
- #  branches:
- #     - main
+  pull_request:
+   branches:["main"]
+
+workflow_dispatch: ["main"]
 
 jobs:
   Run-DAI-Test-Configuration:
