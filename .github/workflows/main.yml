@@ -1,7 +1,7 @@
 name: "dhtest"
 
 # Configure which branch that will trigger Eggplant DAI GitHub Action
-# on:
+on: "darrahhoughgittest"
 #  push:
 #    branches:
 #      - main 
