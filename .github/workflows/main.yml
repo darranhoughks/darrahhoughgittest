@@ -1,7 +1,7 @@
 name: "Eggplant Runner"
 
 # Configure which branch that will trigger Eggplant DAI GitHub Action
-on: "main"
+on: 
   push:
    branches:
      - main 
