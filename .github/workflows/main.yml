@@ -2,10 +2,11 @@ name: "Eggplant Runner"
 
 # Configure which branch that will trigger Eggplant DAI GitHub Action
 on: 
+
   push:
    branches: [ "main" ]
-  pull_request:
-   branches:[ "main" ]
+  #pull_request:
+   # branches:[ "main" ]
 
   workflow_dispatch:
 
