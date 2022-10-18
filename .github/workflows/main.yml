@@ -1,4 +1,4 @@
-name: "dhtest"
+name: "main"
 
 # Configure which branch that will trigger Eggplant DAI GitHub Action
 on: "darrahhoughgittest"
