@@ -10,13 +10,9 @@ on:
 workflow_dispatch: ["main"]
 
 jobs:
-  Run-DAI-Test-Configuration:
-    strategy: # Optional configuration by using matrix strategy
-      max-parallel: 1 # To set the maximum number of jobs that can run simultaneously 
-      matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest] # Operating support by Eggplant DAI GitHub Action
-    runs-on: ${{ windows-latest.os }} # Provide OS matrix
-    name: Run Test Configuration
+  build:
+    runs-on: windows-latest
+    
     steps:
       - run: echo "Trigger event.. ${{ github.event_name }}. Runner OS.. ${{ runner.os }}."
       - name: Eggplant Runner
