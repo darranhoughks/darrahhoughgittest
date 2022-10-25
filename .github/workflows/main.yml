@@ -27,4 +27,5 @@ jobs:
           # Alternatively, DAI client secret can be set as repo secret
           # by going to GitHub Settings > Secrets > Actions
           # clientSecret: "${{secrets.DAI_CLIENT_SECRET}}"
-exit
+end
+
