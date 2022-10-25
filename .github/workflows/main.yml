@@ -21,8 +21,8 @@ jobs:
         uses: keysight-eggplant/eggplant-github-action@main
         with:
           dryRun: true
-          serverURL: "http://vm1c02x1e4ejg5j:8000"
-          testConfigID: "e56fe0e9-c65c-442c-864d-5b4a67b98eab"# Test configuration which need to perform execution
+          serverURL: "http://10.211.55.8:8000"
+          testConfigID: "631e49ed-bb03-45eb-8c9f-c10b69725660"# Test configuration which need to perform execution
           clientSecret: "3a540fce-8d46-4d29-848e-436660a25569"# Eggplant DAI service client secret
           # Alternatively, DAI client secret can be set as repo secret
           # by going to GitHub Settings > Secrets > Actions
