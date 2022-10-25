@@ -12,7 +12,7 @@ jobs:
     strategy:
       max-parallel: 1
       matrix:
-        os: [windows-latest]
+        os: [macos-latest]
     runs-on: ${{ matrix.os }}
     name: Run Test Configuration
     steps:
